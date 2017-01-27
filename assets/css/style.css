@@ -1,0 +1,364 @@
+
+body {
+	background-color: #F5F5F1;
+}
+
+header {
+		font-family: 'Open Sans',sans-serif;
+	}
+
+/* ------------ Navbar --------------*/
+
+#header-nav-top {
+	background-color: #F3F2F7; 
+	padding-top: 7px;
+	padding-bottom: 8px;
+
+
+}
+
+.user-name {
+	font-size: 15px;
+	color: black;	
+}
+
+.header-top li {
+	list-style: none;
+	font-size: 13px;
+}
+
+.header-top li a {
+	color: #4f5468;
+	font-weight: bold;
+
+}
+
+
+/* ------------Home Page --------- */	
+
+
+#nav-top {
+	top:-30px;
+	border-width: 0 0 1px;
+	background-color: #FFF;
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.49);
+	-moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.49);
+	box-shadow: 1px 3px 5px 0px rgba(241,0,0,0.98);
+}	
+
+#header-nav-top .sign-in {
+	margin-top: -3px;
+	/*margin-left: 145px;*/
+}
+
+#header-nav-top .contact {
+	margin-top: -34px;
+	margin-left: 1062px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+#header-nav-top .sign-button {
+	margin-top: 3px;
+}
+
+header .nav-inner {
+	margin-bottom: 16px;
+}
+
+
+.header-top {
+	background-color: #F3F2F7; 
+	color: #888898;
+	font-size: 12px;
+}
+
+#search-bar {
+	margin-top: 10px;
+}
+
+
+.logo-brand img {
+	margin-left: 30px;
+}
+.tog-icon {
+	background-color: #ff0000;
+}
+
+.fb-icon img {
+	margin: -5px -50px;
+}
+
+.twitter-icon img {
+	margin: -25px -20px;
+}
+
+.google-icon img {
+	margin: -2px 10px; 
+}
+.menu-bar {
+	padding-top: 8px;
+	color: #ff0000;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000000;
+}
+
+.public-contact {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #DA2525;
+    background-color: transparent;
+ }   
+
+	
+
+/*.title-page {
+	margin-top: 75px;
+}
+*/
+.panel-home-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+section .h1-tags {
+	font-size: 20px;
+	color: red;
+}
+
+/*#left_side_bar h3 {
+	font-size: 15px; 
+	text-align: center;
+	padding: 5px; 
+	background-color: #E32726; 
+	color: #FFFFFF;
+}*/
+
+#left_side_bar ul li {  
+	border-bottom: 1px solid #E7E7E7;  
+}       
+
+#left_side_bar ul li a {  
+	color: #222222;
+}
+
+#left_side_bar ul li i {  
+	margin-right: 5px; 
+} 
+
+#left_side_bar #btn-review {
+	font-size: 15px;
+	padding: 5px; 
+	background-color: #E32726; 
+	color: #FFFFFF;
+	text-align: center;
+	padding-right: 60px;
+	padding-left: 47px;
+}     
+
+#recent_activity .review-list a {
+	font-size: 15px;
+	color: blue;
+}
+#recent_activity .share-button {
+	margin-left: 140px;
+}
+
+#recent_activity .category-title {
+	color: #3b65a7;
+}
+
+
+.nav>li>a:hover {
+	text-decoration: none;
+	background-color: #E7E7E7;
+}
+
+#recent_activity a {
+	font-size: 16px;
+	color:black;
+}
+
+#recent_activity .review-list {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 15px;
+}
+
+#recent_activity .review-useful {
+	color: #3350a9;
+}
+
+#recent_activity .review-date {
+	color: #999;
+	font-size: 12px;
+}
+
+
+.footer-background {
+	background-color: #FFFFFF;
+	height: 50px;
+	height: 120px;
+}
+
+.footer-background .footer-copyright{
+	color: #999;
+	text-align: center;
+}
+
+.footer-background #footer-link p {
+	text-align: center;
+}
+.footer-background #footer-link .footer-inc{
+	color: black;
+}
+
+
+/* ------------------ Write A Review --------------------------*/
+
+.title-page .log-write-review {
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+} 
+
+.title-page .search-write-review {
+	font-size: 20px;
+	color: #DA2525;
+	font-weight: bold;
+}
+
+.footer-write {
+	margin-top: 275px;
+}
+
+.title-page #write-banner img {
+	
+	margin-top: -140px; 
+	margin-left: 575px;
+}
+
+.title-page #write-banner {
+	margin-left: 0px;
+}
+
+/* .title-page .search-form {
+	margin-top: 50px;
+}
+ */
+
+/*-------------- Contact Us ------------------- */
+
+
+.title-page .contact-message {
+	color: #DA2525;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.contact-form .form-control{
+	height: 45px; 
+}
+
+
+/*---------------------- Search ------------------*/
+
+#main-result hr {
+	border-top: 1px solid #ccc;
+}
+
+#search_result .search-write-review {
+	font-size: 20px;
+	color: #DA2525;
+	font-weight: bold;
+}
+
+/*#main-result {
+	margin-top: -150px;
+}*/
+
+/*------------------------ Add Review --------------*/
+
+.title-page hr {
+	border-top: 1px solid #ccc;
+}
+
+.footer-review {
+	margin-top: 125px;
+}
+
+/* ----------------------- Add A Category -------------*/
+
+.title-page .category-title {
+	color: #DA2525;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.footer-footer {
+	margin-top: 150px;
+}
+
+
+/*-------------------- Review Page -------------------*/
+
+.title-page .item-title {
+	font-weight: bold;
+}
+
+.title-page .wrap-body hr {
+	border-top: black;
+}
+
+/*------------------- Login ---------------------------*/
+
+.head-userlog {
+	height: 103px;
+}
+
+#nav-top .public-logo img {
+	padding-top: 25px;
+	margin-left: 60px;
+
+}
+
+.title-page .panel-title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.title-page .input-group .user-input {
+	height: 56px;
+}
+
+.title-page .input-group .fa-lock {
+	padding: 3px;
+	height: 5px;
+}
+
+.show-read-more .more-text{
+    display: none;
+}
+
+#recent_activity .read-more {
+	color: #5555E4;
+	font-size: 12px;
+}
+
+/*------------------- Reset Password ---------------------------*/
+
+.footer-reset {
+	margin-top: 295px;
+}
+
+
+
